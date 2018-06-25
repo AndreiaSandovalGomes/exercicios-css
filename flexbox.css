@@ -1,20 +1,44 @@
+body{
+  font-family: 'alex_brushregular';
+}
+
+.icon-pencil2{
+  color: orange;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: black;
+  border: 1em solid yellow;
+}
+
   .container-1 div, .container-2 div{
+    border: 1px solid black;
+    padding: 10px;
   }
 
   .container-1{
+    display: flex;
+    justify-content: space-between;
   }
-  
+
   .box-1{
+ width: 15%;
   }
-  
+
   .box-2{
+ width: 15%;
+
   }
-  
+
   .box-3{
+   width: 15%;
+
   }
 
   .container-2{
+    display: flex;
+    flex-wrap: wrap;
   }
-  
+
   .container-2-box{
+    flex-basis: 15%;
   }
