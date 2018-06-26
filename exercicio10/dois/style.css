@@ -1,0 +1,158 @@
+.quadradoMae{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.filha{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20%;
+  left: 20%;
+  background-color: purple;
+  }
+
+.neta{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+}
+
+.quadradoMae2{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  top:10px;
+}
+
+.filha2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  }
+
+.neta2{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 50px;
+  background-color: green;
+}
+
+.quadra{
+  height: 500px;
+  width: 800px;
+  background-color: green;
+  border: 1em double white;
+  position: relative;
+}
+
+.traveEsquerda{
+  height: 150px;
+  width: 80px;
+  top: 35%;
+  border:.3em solid white;
+  color: green;
+  position: absolute;
+}
+
+.traveDireita{
+  height: 150px;
+  width: 80px;
+  top: 35%;
+  border: .3em solid white;
+  position: absolute;
+  right: 0px;
+}
+
+.centro{
+  height: 150px;
+  width: 150px;
+  top: 35%;
+  left: 325px;
+  border-radius: 50%;
+  background-color: green;
+  border: .3em solid white;
+  position: absolute;
+}
+
+.goleiroEsquerda{
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top:36%;
+  left: 78px;
+}
+
+.centroAvante{
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: 25%;
+  left: 50%;
+}
+
+.goleiroDireita{
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  right: 90px;
+  top: 60%;
+}
+
+
+div.field{
+  background-color: green;
+  width: 670px;
+  height: 334px;
+
+
+}
+
+.area{
+width: 70px;
+height: 140px;
+border: solid 4px white;
+}
+
+.left{
+  border-left: 0;
+  }
+
+.right{
+  border-right: 0;
+  }
+
+div.lateral{
+
+  margin: 10px;
+  width: 642px;
+  height: 306px;
+  position: relative;
+  top: 10px;
+  border: solid 4px white;
+
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  }
+
+div.circulo{
+  width: 140px;
+  height: 140px;
+  border-radius: 100px
+}
